@@ -7,6 +7,33 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="container flex items-center justify-between">
+        <!-- Logo (izquierda) -->
+        <a href="index.html" class="logo"> <span>Ω</span> Archivum Vetitum </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+
+        <!-- Menú (escritorio y móvil) -->
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">El Portal</a></li>
+          <li><a href="category.html" class="nav-link">El Archivo</a></li>
+          <li>
+            <a href="gallery.html" class="nav-link">Galería de Demonios</a>
+          </li>
+        </ul>
+
+        <!-- Label hamburguesa (solo visible en móvil) -->
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+    </nav>
+
+    <!-- HERO -->
     <header class="hero">
       <h1>Ω Archivum Vetitum Ω</h1>
       <h2>Donde convergen las sombras del pensamiento humano</h2>
@@ -14,160 +41,77 @@
         Un compendio de conocimiento oculto, filosofía esotérica y los misterios
         que la historia prefirió olvidar
       </p>
-      <a href="compendio.html" class="cta">Iniciar el Descenso</a>
-      <a href="compendio.html" class="cta">Explorar el Codex</a>
+      <a href="category.html" class="cta">Iniciar el Descenso</a>
     </header>
 
+    <h2>Categorías</h2>
     <div class="carousel" mask>
       <article>
-        <img
-          src="https://images.pexels.com/photos/635699/pexels-photo-635699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-        />
-        <h2>The Cross</h2>
+        <img src="images/cat_demonologia.png" alt="" />
+        <h2>Demonología & Entidades</h2>
         <div>
-          <p>
-            The Cross is a central symbol of Easter, representing the
-            crucifixion of Jesus Christ and his sacrifice for humanity. It
-            serves as a reminder of suffering, love, and redemption, and is
-            often displayed during Holy Week and Easter Sunday to honor the
-            foundation of Christian faith.
-          </p>
+          <p>72 demonios, jerarquías infernales, grimoires antiguos</p>
 
           <a href="#">Read more</a>
         </div>
       </article>
 
       <article>
-        <img
-          src="https://images.pexels.com/photos/7168798/pexels-photo-7168798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="easter eggs"
-        />
-        <h2>Easter Eggs</h2>
+        <img src="images/cat_religiones.png" />
+        <h2>Religiones & Herejías</h2>
         <div>
-          <p>
-            Easter eggs are a colorful symbol of new life and rebirth, often
-            decorated and hidden for festive hunts. The tradition comes from
-            ancient spring rituals and was later adopted into Easter
-            celebrations to represent the resurrection.
-          </p>
+          <p>Gnosticismo, cátaros, doctrinas prohibidas</p>
 
           <a href="#">Read more</a>
         </div>
       </article>
 
       <article>
-        <img
-          src="https://images.pexels.com/photos/4099179/pexels-photo-4099179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="hot cross buns"
-        />
-        <h2>Hot Cross Buns</h2>
+        <img src="images/cat_sociedades.png" />
+        <h2>Sociedades Secretas</h2>
         <div>
-          <p>
-            Hot cross buns are sweet, spiced buns marked with a cross on top,
-            traditionally eaten on Good Friday. They originated in England and
-            symbolize the crucifixion, with the cross representing Jesus and the
-            spices recalling burial traditions.
-          </p>
+          <p>Templarios, masones, Illuminati, Skull & Bones</p>
 
           <a href="#">Read more</a>
         </div>
       </article>
 
       <article>
-        <img
-          src="https://images.pexels.com/photos/5145/animal-easter-chick-chicken.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="easter chick"
-        />
-        <h2>Easter Chick</h2>
+        <img src="images/cat_filosofía.png" alt="easter chick" />
+        <h2>Filosofía Oscura</h2>
         <div>
-          <p>
-            Easter chicks are a cheerful symbol of new life and beginnings,
-            often seen alongside eggs in spring decorations. They represent
-            birth and renewal, tying into the themes of Easter and the arrival
-            of spring.
-          </p>
+          <p>Nihilismo, existencialismo, filosofía hermética</p>
 
           <a href="#">Read more</a>
         </div>
       </article>
 
       <article>
-        <img
-          src="https://images.pexels.com/photos/2072158/pexels-photo-2072158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="easter bunny"
-        />
-        <h2>Easter Bunnies</h2>
+        <img src="images/cat_conspiraciones.png" alt="easter bunny" />
+        <h2>Conspiraciones & Control</h2>
         <div>
-          <p>
-            Easter bunnies are a popular symbol of spring and new life, often
-            seen delivering colorful eggs to children.
-          </p>
+          <p>MK-Ultra, Nuevo Orden Mundial, manipulación masiva</p>
 
           <a href="#">Read more</a>
         </div>
       </article>
 
       <article>
-        <img
-          src="https://images.pexels.com/photos/12787666/pexels-photo-12787666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="crown of thorms"
-        />
-        <h2>Crown of Thorns</h2>
+        <img src="images/cat_ocultismo.png" alt="crown of thorms" />
+        <h2>Ocultismo & Magia</h2>
         <div>
-          <p>
-            The Crown of Thorns symbolizes the suffering of Jesus before his
-            crucifixion. It represents the pain he endured for humanity’s
-            salvation and is a reminder of his sacrifice during Easter.
-          </p>
+          <p>Alquimia, tarot, cábala, rituales ceremoniales</p>
 
           <a href="#">Read more</a>
         </div>
       </article>
     </div>
 
-    <section class="categories">
-      <h2>Categorías</h2>
-      <div class="category-grid">
-        <div class="category-card">
-          <div class="icon">Pentagrama invertido</div>
-          <!-- Placeholder for icon -->
-          <h3>Demonología & Entidades</h3>
-          <p>72 demonios, jerarquías infernales, grimoires antiguos</p>
-        </div>
-        <div class="category-card">
-          <div class="icon">Cruz con serpiente</div>
-          <h3>Religiones & Herejías</h3>
-          <p>Gnosticismo, cátaros, doctrinas prohibidas</p>
-        </div>
-        <div class="category-card">
-          <div class="icon">Ojo que todo lo ve</div>
-          <h3>Sociedades Secretas</h3>
-          <p>Templarios, masones, Illuminati, Skull & Bones</p>
-        </div>
-        <div class="category-card">
-          <div class="icon">Calavera con libro</div>
-          <h3>Filosofía Oscura</h3>
-          <p>Nihilismo, existencialismo, filosofía hermética</p>
-        </div>
-        <div class="category-card">
-          <div class="icon">Pirámide fragmentada</div>
-          <h3>Conspiraciones & Control</h3>
-          <p>MK-Ultra, Nuevo Orden Mundial, manipulación masiva</p>
-        </div>
-        <div class="category-card">
-          <div class="icon">Luna y estrellas</div>
-          <h3>Ocultismo & Magia</h3>
-          <p>Alquimia, tarot, cábala, rituales ceremoniales</p>
-        </div>
-      </div>
-    </section>
-
     <section class="featured-articles">
       <h2>Artículos Destacados</h2>
       <div class="article-grid">
         <div class="article-card">
-          <img src="placeholder-bael.jpg" alt="Sello de Bael" />
+          <img src="images/pop_bael.webp" alt="Sello de Bael" />
           <!-- Placeholder -->
           <span class="tag">Demonología</span>
           <h3>La Ars Goetia: Los 72 Demonios de Salomón</h3>
@@ -175,52 +119,77 @@
             El grimoire medieval que detalla las 72 entidades que Salomón
             supuestamente controló...
           </p>
-          <a href="gallery.html" class="btn">Descifrar</a>
+          <a href="gallery.html" class="btn">Explorar</a>
         </div>
         <div class="article-card">
-          <img src="placeholder-ojo.jpg" alt="Ojo de Horus/Providencia" />
+          <img src="images/pop_ojo.jpg" alt="Ojo de Horus/Providencia" />
           <span class="tag">Sociedades Secretas</span>
           <h3>
             El Ojo que Todo lo Ve: Del Antiguo Egipto a tu billete de dólar
           </h3>
           <p>Un símbolo que atraviesa 5,000 años de historia oculta...</p>
-          <a href="#" class="btn">Descifrar</a>
+          <a href="#" class="btn">Explorar</a>
         </div>
         <div class="article-card">
-          <img src="placeholder-ouroboros.jpg" alt="Ouroboros" />
+          <img src="images/pop_gnosticismo.jpg" alt="Ouroboros" />
           <span class="tag">Religiones & Herejías</span>
           <h3>Gnosticismo: La Religión que el Cristianismo Enterró</h3>
           <p>
             Los textos de Nag Hammadi revelaron una cosmología donde el creador
             es el villano...
           </p>
-          <a href="#" class="btn">Descifrar</a>
+          <a href="#" class="btn">Explorar</a>
         </div>
       </div>
     </section>
 
-    <section class="symbol-gallery">
-      <h2>Galería de Símbolos</h2>
-      <div class="gallery-grid">
-        <!-- Static grid instead of carousel -->
-        <img src="placeholder-pentagrama.jpg" alt="Pentagrama" />
-        <img src="placeholder-hexagrama.jpg" alt="Hexagrama" />
-        <img src="placeholder-ojo-horus.jpg" alt="Ojo de Horus" />
-        <img src="placeholder-cruz-leviathan.jpg" alt="Cruz de Leviathan" />
-        <img src="placeholder-sello-baphomet.jpg" alt="Sello de Baphomet" />
-        <img src="placeholder-flor-vida.jpg" alt="Flor de la Vida" />
-        <img src="placeholder-simbolo-azufre.jpg" alt="Símbolo de Azufre" />
-        <img src="placeholder-ouroboros.jpg" alt="Ouroboros" />
-      </div>
-    </section>
+    <footer class="footer-full">
+      <div class="container">
+        <div class="footer-content">
+          <h3 class="footer-title">Únete al Círculo Interno</h3>
 
-    <footer>
-      <form class="newsletter">
-        <h3>Únete al Círculo Interno</h3>
-        <input type="email" placeholder="Tu correo arcano" />
-        <button type="submit">Suscribir</button>
-      </form>
-      <p class="quote">Aude Sapere - Atrévete a Saber</p>
+          <form class="footer-form">
+            <div class="form-grid">
+              <div class="form-col">
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  required
+                  class="input-field"
+                />
+                <input
+                  type="email"
+                  placeholder="Correo"
+                  required
+                  class="input-field"
+                />
+                <input
+                  type="password"
+                  placeholder="Contraseña"
+                  required
+                  class="input-field"
+                />
+              </div>
+
+              <div class="form-col">
+                <textarea
+                  placeholder="Aporte: artículo, opinión, teoría conspirativa, etc."
+                  rows="5"
+                  required
+                  class="textarea-field"
+                ></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Inscribir en el Grimorio</span>
+              <div class="btn-glow"></div>
+            </button>
+          </form>
+
+          <p class="footer-quote">Atrévete a Saber</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
